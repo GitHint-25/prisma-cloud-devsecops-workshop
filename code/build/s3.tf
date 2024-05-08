@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "dev_s3" {
-  bucket_prefix = "dev-gillesbis-"
+  bucket_prefix = "dev-gilles-tier-"
 
   tags = {
     Environment      = "Dev"
